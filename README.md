@@ -6,4 +6,6 @@ HOW TO INSTALL
 
 mvn install:install-file -Dfile=<PATH TO DB2JCC FILE> -DgroupId=com.ibm.db2 -DartifactId=db2jcc -Dversion=3.66.46 -Dpackaging=jar -DgeneratePom=true
 
+- Create new connection name 'SAMPLE' and run SQL in STUDENT.sql file to create STUDENT table and data.
+
 - Build and run project, see the log in console
