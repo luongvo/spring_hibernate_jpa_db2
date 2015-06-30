@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.example</groupId>
+	<groupId>com.example.spring.db2</groupId>
 	<artifactId>spring_hibernate_jpa_db2</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -80,11 +80,9 @@
 
 		<!-- DB2 -->
 		<dependency>
-			<groupId>db2</groupId>
-			<artifactId>db2jcc4</artifactId>
-			<version>4.16.53</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/db2jcc4.jar</systemPath>
+			<groupId>com.ibm.db2</groupId>
+			<artifactId>db2jcc</artifactId>
+			<version>3.66.46</version>
 		</dependency>
 
 		<!-- Log -->
